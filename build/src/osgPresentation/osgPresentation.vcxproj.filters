@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgPresentation\Action.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgPresentation\Cursor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgPresentation\Group.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgPresentation\Show.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgPresentation\Presentation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgPresentation\Section.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgPresentation\Slide.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgPresentation\Layer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgPresentation\Element.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgPresentation\Audio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgPresentation\Image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgPresentation\Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgPresentation\Movie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgPresentation\Text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgPresentation\Volume.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgPresentation\deprecated\AnimationMaterial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgPresentation\deprecated\CompileSlideCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgPresentation\deprecated\PickEventHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgPresentation\deprecated\PropertyManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgPresentation\deprecated\KeyEventHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgPresentation\deprecated\SlideEventHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgPresentation\deprecated\SlideShowConstructor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgPresentation\deprecated\Timeout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgPresentation\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgPresentation\Export">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgPresentation\Action">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgPresentation\Cursor">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgPresentation\Group">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgPresentation\Presentation">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgPresentation\Section">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgPresentation\Slide">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgPresentation\Layer">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgPresentation\Element">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgPresentation\Audio">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgPresentation\Image">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgPresentation\Model">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgPresentation\Movie">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgPresentation\Text">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgPresentation\Volume">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgPresentation\deprecated\AnimationMaterial">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgPresentation\deprecated\CompileSlideCallback">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgPresentation\deprecated\PickEventHandler">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgPresentation\deprecated\PropertyManager">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgPresentation\deprecated\KeyEventHandler">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgPresentation\deprecated\SlideEventHandler">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgPresentation\deprecated\SlideShowConstructor">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgPresentation\deprecated\Timeout">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\PlatformSpecifics\Windows\OpenSceneGraphVersionInfo.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C20988AC-AD2C-3B59-8C57-647C6F5B6D78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{149622F0-E15F-3888-B51B-F91D4A456F15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

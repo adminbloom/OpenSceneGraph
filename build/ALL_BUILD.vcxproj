@@ -1,0 +1,753 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9C43460A-A73F-3D93-B31D-A6E1B7ACE38E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\c++_proj\OpenSceneGraph-3.3.1\include;D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\c++_proj\OpenSceneGraph-3.3.1\include;D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\c++_proj\OpenSceneGraph-3.3.1\include;D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\c++_proj\OpenSceneGraph-3.3.1\include;D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/proj/c++_proj/OpenSceneGraph-3.3.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Programs\CMake\bin\cmake.exe -SD:/proj/c++_proj/OpenSceneGraph-3.3.1 -BD:/proj/c++_proj/OpenSceneGraph-3.3.1/build --check-stamp-file D:/proj/c++_proj/OpenSceneGraph-3.3.1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCCompiler.cmake.in;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCCompilerABI.c;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCXXCompiler.cmake.in;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCXXCompilerABI.cpp;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCXXInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCommonLanguageInclude.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCompilerIdDetection.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDependentOption.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineCCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineCXXCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineCompilerABI.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineCompilerId.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineCompilerSupport.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineRCCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineSystem.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeFindBinUtils.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeFindFrameworks.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeGenericSystem.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeInitializeConfigs.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeLanguageInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeParseLibraryArchitecture.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakePushCheckState.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeRCCompiler.cmake.in;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeRCInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeSystem.cmake.in;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInitialize.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeTestCCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeTestCXXCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeTestCompilerCommon.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeTestRCCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CheckCSourceCompiles.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CheckCXXSymbolExists.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CheckIncludeFile.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CheckLibraryExists.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CheckSymbolExists.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\CrayClang-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Diab-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\MSVC-C.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\MSVC-CXX.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\MSVC.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\OrangeC-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Renesas-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\TIClang-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CompilerId\VS-10.vcxproj.in;D:\Programs\CMake\share\cmake-4.1\Modules\Documentation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindLibXml2.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindLua51.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindOpenGL.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindPkgConfig.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindPythonLibs.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindQt3.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindQt4.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindSDL.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindThreads.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\CMakeCLinkerInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\CMakeDetermineLinkerId.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\CMakeInspectCLinker.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\CMakeInspectCXXLinker.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\CheckSourceCompiles.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\FeatureTesting.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Linker\MSVC-C.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Linker\MSVC-CXX.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Linker\MSVC.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\MacroAddFileDependencies.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Windows-Determine-CXX.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Windows-Initialize.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC-C.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Windows.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\WindowsPaths.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\SelectLibraryConfigurations.cmake;D:\dev\github\vcpkg\scripts\buildsystems\vcpkg.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\Find3rdPartyDependencies.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindCOLLADA.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindDirectInput.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindDirectShow.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindFBX.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindFFmpeg.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindFreeType.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindGDAL.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindGIFLIB.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindGTA.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindGtkGl.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindInventor.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindJasper.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindLibVNCServer.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindLua52.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindNVTT.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindOpenEXR.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindOpenVRML.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindOurDCMTK.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindPerformer.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindPoppler-glib.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindQuickTime.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindRSVG.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindV8.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindXine.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindZLIB.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindZeroConf.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\OsgMacroUtils.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\cmake_uninstall.cmake.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\PlatformSpecifics\Windows\OpenSceneGraphVersionInfo.rc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\CMakeFiles\4.1.0\CMakeCCompiler.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\CMakeFiles\4.1.0\CMakeCXXCompiler.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\CMakeFiles\4.1.0\CMakeRCCompiler.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\CMakeFiles\4.1.0\CMakeSystem.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osg.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgAnimation.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgDB.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgFX.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgGA.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgManipulator.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgParticle.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgShadow.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgSim.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgTerrain.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgText.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgUtil.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgViewer.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgVolume.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgWidget.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osg\Config.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osg\Version.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/proj/c++_proj/OpenSceneGraph-3.3.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\Programs\CMake\bin\cmake.exe -SD:/proj/c++_proj/OpenSceneGraph-3.3.1 -BD:/proj/c++_proj/OpenSceneGraph-3.3.1/build --check-stamp-file D:/proj/c++_proj/OpenSceneGraph-3.3.1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCCompiler.cmake.in;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCCompilerABI.c;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCXXCompiler.cmake.in;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCXXCompilerABI.cpp;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCXXInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCommonLanguageInclude.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCompilerIdDetection.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDependentOption.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineCCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineCXXCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineCompilerABI.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineCompilerId.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineCompilerSupport.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineRCCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineSystem.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeFindBinUtils.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeFindFrameworks.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeGenericSystem.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeInitializeConfigs.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeLanguageInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeParseLibraryArchitecture.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakePushCheckState.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeRCCompiler.cmake.in;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeRCInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeSystem.cmake.in;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInitialize.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeTestCCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeTestCXXCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeTestCompilerCommon.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeTestRCCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CheckCSourceCompiles.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CheckCXXSymbolExists.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CheckIncludeFile.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CheckLibraryExists.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CheckSymbolExists.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\CrayClang-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Diab-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\MSVC-C.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\MSVC-CXX.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\MSVC.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\OrangeC-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Renesas-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\TIClang-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CompilerId\VS-10.vcxproj.in;D:\Programs\CMake\share\cmake-4.1\Modules\Documentation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindLibXml2.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindLua51.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindOpenGL.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindPkgConfig.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindPythonLibs.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindQt3.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindQt4.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindSDL.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindThreads.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\CMakeCLinkerInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\CMakeDetermineLinkerId.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\CMakeInspectCLinker.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\CMakeInspectCXXLinker.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\CheckSourceCompiles.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\FeatureTesting.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Linker\MSVC-C.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Linker\MSVC-CXX.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Linker\MSVC.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\MacroAddFileDependencies.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Windows-Determine-CXX.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Windows-Initialize.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC-C.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Windows.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\WindowsPaths.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\SelectLibraryConfigurations.cmake;D:\dev\github\vcpkg\scripts\buildsystems\vcpkg.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\Find3rdPartyDependencies.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindCOLLADA.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindDirectInput.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindDirectShow.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindFBX.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindFFmpeg.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindFreeType.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindGDAL.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindGIFLIB.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindGTA.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindGtkGl.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindInventor.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindJasper.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindLibVNCServer.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindLua52.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindNVTT.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindOpenEXR.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindOpenVRML.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindOurDCMTK.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindPerformer.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindPoppler-glib.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindQuickTime.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindRSVG.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindV8.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindXine.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindZLIB.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindZeroConf.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\OsgMacroUtils.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\cmake_uninstall.cmake.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\PlatformSpecifics\Windows\OpenSceneGraphVersionInfo.rc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\CMakeFiles\4.1.0\CMakeCCompiler.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\CMakeFiles\4.1.0\CMakeCXXCompiler.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\CMakeFiles\4.1.0\CMakeRCCompiler.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\CMakeFiles\4.1.0\CMakeSystem.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osg.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgAnimation.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgDB.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgFX.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgGA.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgManipulator.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgParticle.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgShadow.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgSim.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgTerrain.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgText.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgUtil.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgViewer.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgVolume.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgWidget.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osg\Config.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osg\Version.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/proj/c++_proj/OpenSceneGraph-3.3.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\Programs\CMake\bin\cmake.exe -SD:/proj/c++_proj/OpenSceneGraph-3.3.1 -BD:/proj/c++_proj/OpenSceneGraph-3.3.1/build --check-stamp-file D:/proj/c++_proj/OpenSceneGraph-3.3.1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCCompiler.cmake.in;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCCompilerABI.c;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCXXCompiler.cmake.in;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCXXCompilerABI.cpp;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCXXInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCommonLanguageInclude.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCompilerIdDetection.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDependentOption.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineCCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineCXXCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineCompilerABI.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineCompilerId.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineCompilerSupport.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineRCCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineSystem.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeFindBinUtils.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeFindFrameworks.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeGenericSystem.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeInitializeConfigs.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeLanguageInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeParseLibraryArchitecture.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakePushCheckState.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeRCCompiler.cmake.in;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeRCInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeSystem.cmake.in;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInitialize.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeTestCCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeTestCXXCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeTestCompilerCommon.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeTestRCCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CheckCSourceCompiles.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CheckCXXSymbolExists.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CheckIncludeFile.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CheckLibraryExists.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CheckSymbolExists.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\CrayClang-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Diab-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\MSVC-C.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\MSVC-CXX.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\MSVC.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\OrangeC-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Renesas-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\TIClang-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CompilerId\VS-10.vcxproj.in;D:\Programs\CMake\share\cmake-4.1\Modules\Documentation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindLibXml2.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindLua51.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindOpenGL.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindPkgConfig.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindPythonLibs.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindQt3.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindQt4.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindSDL.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindThreads.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\CMakeCLinkerInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\CMakeDetermineLinkerId.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\CMakeInspectCLinker.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\CMakeInspectCXXLinker.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\CheckSourceCompiles.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\FeatureTesting.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Linker\MSVC-C.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Linker\MSVC-CXX.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Linker\MSVC.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\MacroAddFileDependencies.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Windows-Determine-CXX.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Windows-Initialize.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC-C.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Windows.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\WindowsPaths.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\SelectLibraryConfigurations.cmake;D:\dev\github\vcpkg\scripts\buildsystems\vcpkg.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\Find3rdPartyDependencies.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindCOLLADA.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindDirectInput.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindDirectShow.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindFBX.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindFFmpeg.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindFreeType.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindGDAL.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindGIFLIB.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindGTA.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindGtkGl.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindInventor.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindJasper.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindLibVNCServer.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindLua52.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindNVTT.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindOpenEXR.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindOpenVRML.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindOurDCMTK.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindPerformer.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindPoppler-glib.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindQuickTime.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindRSVG.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindV8.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindXine.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindZLIB.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindZeroConf.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\OsgMacroUtils.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\cmake_uninstall.cmake.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\PlatformSpecifics\Windows\OpenSceneGraphVersionInfo.rc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\CMakeFiles\4.1.0\CMakeCCompiler.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\CMakeFiles\4.1.0\CMakeCXXCompiler.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\CMakeFiles\4.1.0\CMakeRCCompiler.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\CMakeFiles\4.1.0\CMakeSystem.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osg.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgAnimation.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgDB.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgFX.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgGA.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgManipulator.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgParticle.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgShadow.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgSim.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgTerrain.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgText.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgUtil.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgViewer.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgVolume.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgWidget.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osg\Config.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osg\Version.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/proj/c++_proj/OpenSceneGraph-3.3.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\Programs\CMake\bin\cmake.exe -SD:/proj/c++_proj/OpenSceneGraph-3.3.1 -BD:/proj/c++_proj/OpenSceneGraph-3.3.1/build --check-stamp-file D:/proj/c++_proj/OpenSceneGraph-3.3.1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCCompiler.cmake.in;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCCompilerABI.c;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCXXCompiler.cmake.in;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCXXCompilerABI.cpp;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCXXInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCommonLanguageInclude.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeCompilerIdDetection.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDependentOption.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineCCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineCXXCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineCompilerABI.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineCompilerId.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineCompilerSupport.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineRCCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeDetermineSystem.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeFindBinUtils.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeFindFrameworks.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeGenericSystem.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeInitializeConfigs.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeLanguageInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeParseLibraryArchitecture.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakePushCheckState.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeRCCompiler.cmake.in;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeRCInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeSystem.cmake.in;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInitialize.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeTestCCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeTestCXXCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeTestCompilerCommon.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CMakeTestRCCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CheckCSourceCompiles.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CheckCXXSymbolExists.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CheckIncludeFile.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CheckLibraryExists.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CheckSymbolExists.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\CrayClang-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Diab-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\LCC-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\MSVC-C.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\MSVC-CXX.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\MSVC.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\OrangeC-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Renesas-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\TIClang-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Tasking-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\CompilerId\VS-10.vcxproj.in;D:\Programs\CMake\share\cmake-4.1\Modules\Documentation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindLibXml2.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindLua51.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindOpenGL.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindPkgConfig.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindPythonLibs.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindQt3.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindQt4.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindSDL.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\FindThreads.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\CMakeCLinkerInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\CMakeDetermineLinkerId.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\CMakeInspectCLinker.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\CMakeInspectCXXLinker.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\CheckSourceCompiles.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Internal\FeatureTesting.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Linker\MSVC-C.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Linker\MSVC-CXX.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Linker\MSVC.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\MacroAddFileDependencies.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Windows-Determine-CXX.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Windows-Initialize.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC-C.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Windows-MSVC.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\Windows.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\Platform\WindowsPaths.cmake;D:\Programs\CMake\share\cmake-4.1\Modules\SelectLibraryConfigurations.cmake;D:\dev\github\vcpkg\scripts\buildsystems\vcpkg.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\Find3rdPartyDependencies.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindCOLLADA.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindDirectInput.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindDirectShow.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindFBX.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindFFmpeg.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindFreeType.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindGDAL.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindGIFLIB.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindGTA.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindGtkGl.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindInventor.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindJasper.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindLibVNCServer.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindLua52.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindNVTT.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindOpenEXR.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindOpenVRML.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindOurDCMTK.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindPerformer.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindPoppler-glib.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindQuickTime.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindRSVG.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindV8.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindXine.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindZLIB.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\FindZeroConf.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\OsgMacroUtils.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\CMakeModules\cmake_uninstall.cmake.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\PlatformSpecifics\Windows\OpenSceneGraphVersionInfo.rc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\CMakeFiles\4.1.0\CMakeCCompiler.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\CMakeFiles\4.1.0\CMakeCXXCompiler.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\CMakeFiles\4.1.0\CMakeRCCompiler.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\CMakeFiles\4.1.0\CMakeSystem.cmake;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osg.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgAnimation.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgDB.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgFX.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgGA.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgManipulator.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgParticle.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgShadow.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgSim.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgTerrain.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgText.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgUtil.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgViewer.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgVolume.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph-osgWidget.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\packaging\pkgconfig\openscenegraph.pc.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osg\Config.in;D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osg\Version.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\ZERO_CHECK.vcxproj">
+      <Project>{3394B6D9-B778-3FE1-A715-B280CCDF1A92}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\OpenThreads\win32\OpenThreads.vcxproj">
+      <Project>{B659DAAC-B63E-3472-89AC-5C3EA2643455}</Project>
+      <Name>OpenThreads</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\applications\osgarchive\application_osgarchive.vcxproj">
+      <Project>{E6B7177A-E48C-3D7E-99C8-659259C3A8C9}</Project>
+      <Name>application_osgarchive</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\applications\osgconv\application_osgconv.vcxproj">
+      <Project>{96AE8AB8-9742-34B0-8EE7-106C82F49BCF}</Project>
+      <Name>application_osgconv</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\applications\osgfilecache\application_osgfilecache.vcxproj">
+      <Project>{09A760D1-AFEE-3E30-B631-A0A99BDFB9D4}</Project>
+      <Name>application_osgfilecache</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\applications\osgversion\application_osgversion.vcxproj">
+      <Project>{62B73AC5-A91E-3F07-8C5C-DA97FAC386E9}</Project>
+      <Name>application_osgversion</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\applications\osgviewer\application_osgviewer.vcxproj">
+      <Project>{6324BB66-7A13-3790-AE9E-76B4E96E7DBC}</Project>
+      <Name>application_osgviewer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\applications\present3D\application_present3D.vcxproj">
+      <Project>{5247899D-6289-3D17-89C3-047F88F25472}</Project>
+      <Name>application_present3D</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osg\osg.vcxproj">
+      <Project>{A41AB8A9-836E-32D4-9C11-0D1C183C8DCF}</Project>
+      <Name>osg</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgAnimation\osgAnimation.vcxproj">
+      <Project>{31831FE2-B4F9-3570-BF0A-2E0D9B6E035A}</Project>
+      <Name>osgAnimation</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgDB\osgDB.vcxproj">
+      <Project>{8D40A185-4526-3BC6-9DFC-5E23ADBFD0F4}</Project>
+      <Name>osgDB</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgFX\osgFX.vcxproj">
+      <Project>{B113A730-C4AE-3BFE-8AC5-1FF350BB6661}</Project>
+      <Name>osgFX</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgGA\osgGA.vcxproj">
+      <Project>{BE4EE497-B179-3C80-AD1C-1558F6EF9009}</Project>
+      <Name>osgGA</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgManipulator\osgManipulator.vcxproj">
+      <Project>{DA42D998-8BE1-3965-9B4E-2B7FE54E166B}</Project>
+      <Name>osgManipulator</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgParticle\osgParticle.vcxproj">
+      <Project>{A387951F-B70C-3DDA-9356-F2976ACB3E2D}</Project>
+      <Name>osgParticle</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPresentation\osgPresentation.vcxproj">
+      <Project>{9AB97A94-BD50-3DF4-A4D2-87C2A12B48D3}</Project>
+      <Name>osgPresentation</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgShadow\osgShadow.vcxproj">
+      <Project>{40B5BFC7-4A62-3A9C-B6DD-BEDD1858A6A1}</Project>
+      <Name>osgShadow</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgSim\osgSim.vcxproj">
+      <Project>{E6D6602F-2512-335D-890A-E743B72F81FE}</Project>
+      <Name>osgSim</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgTerrain\osgTerrain.vcxproj">
+      <Project>{4DF89540-1319-3BCD-B5F2-3CE9DF99FC84}</Project>
+      <Name>osgTerrain</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgText\osgText.vcxproj">
+      <Project>{C02EAC30-79A4-3C9A-A377-996128B0C622}</Project>
+      <Name>osgText</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgUtil\osgUtil.vcxproj">
+      <Project>{81313CBD-9FF6-35C1-BE8D-D9BA89ED4F08}</Project>
+      <Name>osgUtil</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgViewer\osgViewer.vcxproj">
+      <Project>{AF79407F-5312-354D-9CE0-0623871F746F}</Project>
+      <Name>osgViewer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgVolume\osgVolume.vcxproj">
+      <Project>{E9EE9E7B-B368-3D3D-A2EE-3C5BED421D7B}</Project>
+      <Name>osgVolume</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgWidget\osgWidget.vcxproj">
+      <Project>{161C8084-1416-3791-9A42-FA312C32E429}</Project>
+      <Name>osgWidget</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\3dc\osgdb_3dc.vcxproj">
+      <Project>{B42A7B5A-A117-304D-8A30-D6158A16A666}</Project>
+      <Name>osgdb_3dc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\3ds\osgdb_3ds.vcxproj">
+      <Project>{CA2DDAFA-06C9-3677-8CBB-79FE94417373}</Project>
+      <Name>osgdb_3ds</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\ac\osgdb_ac.vcxproj">
+      <Project>{CEE0926A-973F-3D6B-83B7-CF43891CBAEB}</Project>
+      <Name>osgdb_ac</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\bmp\osgdb_bmp.vcxproj">
+      <Project>{1D208175-C7B9-313B-B425-C978D327E316}</Project>
+      <Name>osgdb_bmp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\bsp\osgdb_bsp.vcxproj">
+      <Project>{650C95DD-473F-369C-8962-D605BE5C5B21}</Project>
+      <Name>osgdb_bsp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\bvh\osgdb_bvh.vcxproj">
+      <Project>{EA248B4B-E5DD-3D92-A210-0B3DA00B7738}</Project>
+      <Name>osgdb_bvh</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\cfg\osgdb_cfg.vcxproj">
+      <Project>{4F08F803-FDD6-3A86-A101-A47305023BF8}</Project>
+      <Name>osgdb_cfg</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\curl\osgdb_curl.vcxproj">
+      <Project>{19439521-396D-3005-B0D0-9D48ED4245EC}</Project>
+      <Name>osgdb_curl</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\dds\osgdb_dds.vcxproj">
+      <Project>{02B787BF-9666-3376-B8B9-7EBACD898D3A}</Project>
+      <Name>osgdb_dds</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgWrappers\deprecated-dotosg\osg\osgdb_deprecated_osg.vcxproj">
+      <Project>{61AA65E0-27E0-3F88-8712-14A134CCAB33}</Project>
+      <Name>osgdb_deprecated_osg</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgWrappers\deprecated-dotosg\osgAnimation\osgdb_deprecated_osganimation.vcxproj">
+      <Project>{2ECCFCA3-FDB1-3317-B565-5543B3EE08EA}</Project>
+      <Name>osgdb_deprecated_osganimation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgWrappers\deprecated-dotosg\osgFX\osgdb_deprecated_osgfx.vcxproj">
+      <Project>{F832480A-9F8B-35BC-8CFA-5DABA806E107}</Project>
+      <Name>osgdb_deprecated_osgfx</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgWrappers\deprecated-dotosg\osgParticle\osgdb_deprecated_osgparticle.vcxproj">
+      <Project>{CD547066-C158-3FEF-8A11-F4CD3B2E17A9}</Project>
+      <Name>osgdb_deprecated_osgparticle</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgWrappers\deprecated-dotosg\osgShadow\osgdb_deprecated_osgshadow.vcxproj">
+      <Project>{46177253-FFD3-3C9C-A15F-43A87B18A50D}</Project>
+      <Name>osgdb_deprecated_osgshadow</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgWrappers\deprecated-dotosg\osgSim\osgdb_deprecated_osgsim.vcxproj">
+      <Project>{BE9D4E6D-D408-338E-99C8-5A0C0F59E11F}</Project>
+      <Name>osgdb_deprecated_osgsim</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgWrappers\deprecated-dotosg\osgTerrain\osgdb_deprecated_osgterrain.vcxproj">
+      <Project>{A6160E15-B977-3BFB-881C-CF74EAB4B77D}</Project>
+      <Name>osgdb_deprecated_osgterrain</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgWrappers\deprecated-dotosg\osgText\osgdb_deprecated_osgtext.vcxproj">
+      <Project>{FC01F814-3796-36D4-AAF9-663A63363F7C}</Project>
+      <Name>osgdb_deprecated_osgtext</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgWrappers\deprecated-dotosg\osgViewer\osgdb_deprecated_osgviewer.vcxproj">
+      <Project>{ACB6C374-7F14-3CC7-90E9-DC639B09DA8B}</Project>
+      <Name>osgdb_deprecated_osgviewer</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgWrappers\deprecated-dotosg\osgVolume\osgdb_deprecated_osgvolume.vcxproj">
+      <Project>{50F2374C-547D-3C89-AA8F-F2E3618A6852}</Project>
+      <Name>osgdb_deprecated_osgvolume</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgWrappers\deprecated-dotosg\osgWidget\osgdb_deprecated_osgwidget.vcxproj">
+      <Project>{8EE9D7A8-93A9-3315-BE7B-23D746634367}</Project>
+      <Name>osgdb_deprecated_osgwidget</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\dot\osgdb_dot.vcxproj">
+      <Project>{1AC1395F-6FF1-3012-8892-205E8F660C8D}</Project>
+      <Name>osgdb_dot</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\dw\osgdb_dw.vcxproj">
+      <Project>{C0FC5AEA-D2FB-3344-B1C9-F01D7339BB1C}</Project>
+      <Name>osgdb_dw</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\dxf\osgdb_dxf.vcxproj">
+      <Project>{379A9C42-8DB7-3274-A2A5-53E04727706F}</Project>
+      <Name>osgdb_dxf</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\glsl\osgdb_glsl.vcxproj">
+      <Project>{7EEE6D90-A1DF-3FFE-BD8C-264A41E03DCE}</Project>
+      <Name>osgdb_glsl</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\gz\osgdb_gz.vcxproj">
+      <Project>{860D0D73-FCD9-36AC-9CBE-B52A67B5E70D}</Project>
+      <Name>osgdb_gz</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\hdr\osgdb_hdr.vcxproj">
+      <Project>{5B741CB7-CA3A-3DB5-9EE2-520213D9DCED}</Project>
+      <Name>osgdb_hdr</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\ive\osgdb_ive.vcxproj">
+      <Project>{0D851C0B-91A7-30CC-8CD9-42D1F9181A0A}</Project>
+      <Name>osgdb_ive</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\jpeg\osgdb_jpeg.vcxproj">
+      <Project>{5747CAF5-D30E-36AD-B2D5-20BF79F2C9D9}</Project>
+      <Name>osgdb_jpeg</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\ktx\osgdb_ktx.vcxproj">
+      <Project>{2DF31D1F-E96D-3D10-84EB-A0D800EB3D90}</Project>
+      <Name>osgdb_ktx</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\logo\osgdb_logo.vcxproj">
+      <Project>{F0AF925C-1EAC-343E-819E-F4D2C88EB4DC}</Project>
+      <Name>osgdb_logo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\lwo\osgdb_lwo.vcxproj">
+      <Project>{AA16BF87-E18E-3696-8A1F-145C41090125}</Project>
+      <Name>osgdb_lwo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\lws\osgdb_lws.vcxproj">
+      <Project>{8507BCB2-DADE-34D3-B6B5-65724F251769}</Project>
+      <Name>osgdb_lws</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\md2\osgdb_md2.vcxproj">
+      <Project>{06163BD7-6BC9-3FC6-A73D-4715661CA60C}</Project>
+      <Name>osgdb_md2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\mdl\osgdb_mdl.vcxproj">
+      <Project>{6D63C71B-461B-3FB4-B8AD-934D8D20B655}</Project>
+      <Name>osgdb_mdl</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\normals\osgdb_normals.vcxproj">
+      <Project>{D377825C-7C58-3ED6-9C7E-1F3090FF7B55}</Project>
+      <Name>osgdb_normals</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\obj\osgdb_obj.vcxproj">
+      <Project>{45CE3FA8-4498-3CDF-A4EE-C8C42BA67426}</Project>
+      <Name>osgdb_obj</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\OpenFlight\osgdb_openflight.vcxproj">
+      <Project>{14857826-955E-32AA-9A0B-07CEC9A74711}</Project>
+      <Name>osgdb_openflight</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\osc\osgdb_osc.vcxproj">
+      <Project>{AFDA3BCB-3154-373A-ADE6-5656E724B989}</Project>
+      <Name>osgdb_osc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\osg\osgdb_osg.vcxproj">
+      <Project>{644EFAFA-95E4-352F-B3FE-1DF3B252A183}</Project>
+      <Name>osgdb_osg</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\osga\osgdb_osga.vcxproj">
+      <Project>{4E9FBD47-76C5-3E4A-913C-80731DE986F4}</Project>
+      <Name>osgdb_osga</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\shadow\osgdb_osgshadow.vcxproj">
+      <Project>{01532996-A37F-37C8-9408-A1E021090CFB}</Project>
+      <Name>osgdb_osgshadow</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\terrain\osgdb_osgterrain.vcxproj">
+      <Project>{A2450421-E5A0-3733-9DAF-9B969BE94570}</Project>
+      <Name>osgdb_osgterrain</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\osgtgz\osgdb_osgtgz.vcxproj">
+      <Project>{77D4F6FB-CA7D-323B-A0B4-8684EEA9012B}</Project>
+      <Name>osgdb_osgtgz</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\view\osgdb_osgviewer.vcxproj">
+      <Project>{BC2FDAE0-4D78-3B05-97B5-EC698996FA29}</Project>
+      <Name>osgdb_osgviewer</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\p3d\osgdb_p3d.vcxproj">
+      <Project>{8217F69B-F422-3F1C-9289-8D3E6F4A1BEA}</Project>
+      <Name>osgdb_p3d</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\pic\osgdb_pic.vcxproj">
+      <Project>{0701C6E9-9488-3A5E-A141-2197A49B0D81}</Project>
+      <Name>osgdb_pic</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\ply\osgdb_ply.vcxproj">
+      <Project>{7AEA21D9-B153-321F-8CFD-9AFB6634A77B}</Project>
+      <Name>osgdb_ply</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\png\osgdb_png.vcxproj">
+      <Project>{EC279270-9079-381F-ACE8-68D46D731083}</Project>
+      <Name>osgdb_png</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\pnm\osgdb_pnm.vcxproj">
+      <Project>{51EDD201-32E1-3249-88FC-6848C17D6F1E}</Project>
+      <Name>osgdb_pnm</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\pov\osgdb_pov.vcxproj">
+      <Project>{DB0B4F6C-0AF8-37B3-8201-C5548FC23DB2}</Project>
+      <Name>osgdb_pov</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\pvr\osgdb_pvr.vcxproj">
+      <Project>{727EEB63-FDEB-38D5-AE5A-1266AFE1A027}</Project>
+      <Name>osgdb_pvr</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\revisions\osgdb_revisions.vcxproj">
+      <Project>{53AA2B74-1216-3E15-879B-2E78CB20951F}</Project>
+      <Name>osgdb_revisions</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\rgb\osgdb_rgb.vcxproj">
+      <Project>{964A1BAF-DA19-39E7-959E-A20FD7FD4BF6}</Project>
+      <Name>osgdb_rgb</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\rot\osgdb_rot.vcxproj">
+      <Project>{3409E4E9-BE9B-31AF-B768-1C8EE884063E}</Project>
+      <Name>osgdb_rot</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\scale\osgdb_scale.vcxproj">
+      <Project>{0E1145E5-9180-363F-8F0D-F7FA35011D50}</Project>
+      <Name>osgdb_scale</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgWrappers\serializers\osg\osgdb_serializers_osg.vcxproj">
+      <Project>{4AA7FF8D-0953-3472-9C44-3717804615C9}</Project>
+      <Name>osgdb_serializers_osg</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgWrappers\serializers\osgAnimation\osgdb_serializers_osganimation.vcxproj">
+      <Project>{B5161F8D-FF6C-3802-812D-3002F75BA066}</Project>
+      <Name>osgdb_serializers_osganimation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgWrappers\serializers\osgFX\osgdb_serializers_osgfx.vcxproj">
+      <Project>{D134496E-C23D-3047-B12D-689CCA9F82D1}</Project>
+      <Name>osgdb_serializers_osgfx</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgWrappers\serializers\osgGA\osgdb_serializers_osgga.vcxproj">
+      <Project>{A5336CE1-FFD8-3246-80D8-28CFDCF9480C}</Project>
+      <Name>osgdb_serializers_osgga</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgWrappers\serializers\osgManipulator\osgdb_serializers_osgmanipulator.vcxproj">
+      <Project>{06C0EE66-34EB-3502-A3D5-719CC13483B3}</Project>
+      <Name>osgdb_serializers_osgmanipulator</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgWrappers\serializers\osgParticle\osgdb_serializers_osgparticle.vcxproj">
+      <Project>{6F19CB37-072B-3A78-A598-D3EA6214BA6C}</Project>
+      <Name>osgdb_serializers_osgparticle</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgWrappers\serializers\osgPresentation\osgdb_serializers_osgpresentation.vcxproj">
+      <Project>{E62A7725-3BCF-3276-A03F-98FDF69050D5}</Project>
+      <Name>osgdb_serializers_osgpresentation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgWrappers\serializers\osgShadow\osgdb_serializers_osgshadow.vcxproj">
+      <Project>{E7B72354-808E-317A-9D51-7883A4BC9971}</Project>
+      <Name>osgdb_serializers_osgshadow</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgWrappers\serializers\osgSim\osgdb_serializers_osgsim.vcxproj">
+      <Project>{EB026B8A-4CDA-3B41-9A44-BB61391597AC}</Project>
+      <Name>osgdb_serializers_osgsim</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgWrappers\serializers\osgTerrain\osgdb_serializers_osgterrain.vcxproj">
+      <Project>{C6FD82C9-F54C-368D-8F41-3A1136133C22}</Project>
+      <Name>osgdb_serializers_osgterrain</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgWrappers\serializers\osgText\osgdb_serializers_osgtext.vcxproj">
+      <Project>{824AC923-4788-3020-8AD9-30DF1D9E04A8}</Project>
+      <Name>osgdb_serializers_osgtext</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgWrappers\serializers\osgViewer\osgdb_serializers_osgviewer.vcxproj">
+      <Project>{EB582BA9-7E2A-3785-B265-0964D0833302}</Project>
+      <Name>osgdb_serializers_osgviewer</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgWrappers\serializers\osgVolume\osgdb_serializers_osgvolume.vcxproj">
+      <Project>{BC20AB4E-9311-38B5-8017-495E12EAD2C0}</Project>
+      <Name>osgdb_serializers_osgvolume</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\shp\osgdb_shp.vcxproj">
+      <Project>{7AC87F39-68CF-3497-AA58-DEC6A3841145}</Project>
+      <Name>osgdb_shp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\stl\osgdb_stl.vcxproj">
+      <Project>{9AE800C2-7301-3D3F-BAE5-E70CF163844B}</Project>
+      <Name>osgdb_stl</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\tga\osgdb_tga.vcxproj">
+      <Project>{DB2CFB59-1E17-3345-8BD9-AE5077E671DA}</Project>
+      <Name>osgdb_tga</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\tgz\osgdb_tgz.vcxproj">
+      <Project>{1E44A374-F4F7-366F-856C-D314D0AFD3BA}</Project>
+      <Name>osgdb_tgz</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\tiff\osgdb_tiff.vcxproj">
+      <Project>{7DD2D3DE-DD3A-35FD-9071-9FD063C65593}</Project>
+      <Name>osgdb_tiff</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\trans\osgdb_trans.vcxproj">
+      <Project>{6E6ED863-16BC-3178-9F60-1DE52E4F0624}</Project>
+      <Name>osgdb_trans</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\trk\osgdb_trk.vcxproj">
+      <Project>{73651B8D-41C3-301F-B82A-8042667B08C8}</Project>
+      <Name>osgdb_trk</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\txf\osgdb_txf.vcxproj">
+      <Project>{588B9B66-6F70-372D-A83C-E3E55AB417BE}</Project>
+      <Name>osgdb_txf</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\txp\osgdb_txp.vcxproj">
+      <Project>{4BB08E77-963A-3396-A600-46A0BF97A37D}</Project>
+      <Name>osgdb_txp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\vtf\osgdb_vtf.vcxproj">
+      <Project>{EB377D7D-863C-3E24-A638-FF3B2ED60880}</Project>
+      <Name>osgdb_vtf</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\x\osgdb_x.vcxproj">
+      <Project>{4ED61B99-34DF-3CF9-9CF1-7D878950EE25}</Project>
+      <Name>osgdb_x</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\src\osgPlugins\zip\osgdb_zip.vcxproj">
+      <Project>{015BC1CC-3DC7-3E7F-A82F-4D40E1EED78C}</Project>
+      <Name>osgdb_zip</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
