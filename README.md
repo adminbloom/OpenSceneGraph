@@ -3,7 +3,7 @@
 [![Documentation](https://codedocs.xyz/openscenegraph/OpenSceneGraph.svg)](https://codedocs.xyz/openscenegraph/OpenSceneGraph/)
 [ABI Tracker](https://abi-laboratory.pro/tracker/timeline/openscenegraph/ "ABI Tracker")
 
-# Introduction
+# Introduction 
 
 Welcome to the OpenSceneGraph (OSG).
 
