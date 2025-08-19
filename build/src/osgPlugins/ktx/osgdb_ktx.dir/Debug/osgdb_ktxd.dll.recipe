@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\bin\ot20-OpenThreadsd.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\bin\osg111-osgd.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\bin\osg111-osgUtild.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\bin\osg111-osgDBd.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\bin\osgPlugins-3.3.1\osgdb_ktxd.dll</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

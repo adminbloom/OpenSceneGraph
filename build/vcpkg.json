@@ -1,0 +1,9 @@
+{
+  "dependencies": [
+    "zlib",
+    "curl",
+    "libjpeg-turbo",
+    "libpng",
+    "tiff"
+  ]
+}

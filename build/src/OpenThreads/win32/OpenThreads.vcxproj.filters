@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\OpenThreads\win32\WIN32Condition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\OpenThreads\win32\Win32Mutex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\OpenThreads\win32\Win32Thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\OpenThreads\win32\Win32ThreadBarrier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\OpenThreads\common\Version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\OpenThreads\common\Atomic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\OpenThreads\Atomic">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\OpenThreads\Barrier">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\OpenThreads\Block">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\OpenThreads\Condition">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\OpenThreads\Exports">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\OpenThreads\Mutex">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\OpenThreads\ReadWriteMutex">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\OpenThreads\ReentrantMutex">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\OpenThreads\ScopedLock">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\OpenThreads\Thread">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\OpenThreads\Version">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\include\OpenThreads\Config">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\OpenThreads\win32\HandleHolder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\OpenThreads\win32\Win32BarrierPrivateData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\OpenThreads\win32\Win32ConditionPrivateData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\OpenThreads\win32\Win32MutexPrivateData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\OpenThreads\win32\Win32ThreadPrivateData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\OpenThreads\win32\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\PlatformSpecifics\Windows\OpenThreadsVersionInfo.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C20988AC-AD2C-3B59-8C57-647C6F5B6D78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{149622F0-E15F-3888-B51B-F91D4A456F15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

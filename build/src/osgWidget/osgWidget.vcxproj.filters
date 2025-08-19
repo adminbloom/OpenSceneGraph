@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgWidget\Box.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgWidget\Browser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgWidget\PdfReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgWidget\VncClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgWidget\Canvas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgWidget\Frame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgWidget\Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgWidget\Label.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgWidget\Lua.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgWidget\Python.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgWidget\StyleManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgWidget\Table.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgWidget\Util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgWidget\Version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgWidget\ViewerEventHandlers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgWidget\Widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgWidget\Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgWidget\WindowManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\src\osgWidget\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgWidget\Export">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgWidget\Box">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgWidget\Browser">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgWidget\PdfReader">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgWidget\VncClient">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgWidget\Canvas">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgWidget\EventInterface">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgWidget\Frame">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgWidget\Input">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgWidget\Label">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgWidget\Lua">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgWidget\Python">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgWidget\ScriptEngine">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgWidget\StyleInterface">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgWidget\StyleManager">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgWidget\Table">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgWidget\Types">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgWidget\UIObjectParent">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgWidget\Util">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgWidget\Version">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgWidget\ViewerEventHandlers">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgWidget\Widget">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgWidget\Window">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\include\osgWidget\WindowManager">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\proj\c++_proj\OpenSceneGraph-3.3.1\build\PlatformSpecifics\Windows\OpenSceneGraphVersionInfo.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C20988AC-AD2C-3B59-8C57-647C6F5B6D78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{149622F0-E15F-3888-B51B-F91D4A456F15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
