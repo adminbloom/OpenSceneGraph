@@ -208,3 +208,64 @@ Known issues:
 * You can only select Simulator, or Device projects. In the XCode
   project you will see both types but the sdk they link will
   be the same.
+
+
+# Section 4: Build using VCPKG
+========================================
+
+Steps to use vcpkg in (single) manifest mode:
+
+1. Download and install cmake version 4.1.
+
+2. Install vcpkg and set its instalation root folder in Windows system environment 
+   to be used later as %VCPKG_ROOT% in the command in step 5:
+
+    Name: VCPKG_ROOT
+    Value: /path/to/your/vcpkg/folder/
+
+3. Clone this repository and cd to OpenSceneGraph folder.
+
+4. If need to re-create new project files and solution, continue to step 5,
+   if just need to build/rebuild projects in VS2022 immediately skip to step 10.
+
+5. Inside this folder, type command to start creating projects and solution:
+   
+   $ cmake -B build -S . -G "Visual Studio 17 2022" -A x64 -DCMAKE_TOOLCHAIN_FILE=%VCPKG_ROOT%/scripts/buildsystems/vcpkg.cmake
+
+6. After cmake has succesfully created projects and solution,
+   open Visual Studio 2022 and open solution file OpenSceneGraph.sln
+   located in build/OpenSceneGraph.sln
+
+7. Open Tools->CommandLine->DeveloperPowerShell and type the ff command
+   PS> $env:VCPKG_ROOT = "path\to\your\vcpkg\folder" 
+   PS> $env:PATH = "$env:VCPKG_ROOT;$env:PATH"
+
+8. Open Tools->CommandLine->DeveloperCommandPrompt and type the ff command
+   >  vcpkg new --application
+   >  vcpkg add port zlib
+   >  vcpkg add port curl
+   >  vcpkg add port libjpeg-turbo
+   >  vcpkg add port libpng
+   >  vcpkg add port tiff
+ 
+9. Right-click on the following projects
+   select Properties->Configuration Properties->vcpkg
+   
+   Plugins_curl
+   Plugins_dds
+   Plugins_gz
+   Plugins_jpeg
+   Plugins_tiff
+   Plugins_png
+   osg_DB
+
+   and set the following properties:
+
+   Use Vcpkg: Yes
+   Use Vcpkg Manifest: Yes
+
+10. If from step 4: Open Visual Studio 2022 and open solution file OpenSceneGraph.sln
+   located in build/OpenSceneGraph.sln
+   Right-click on the topmost Solution 'OpenSceneGraph'
+   and click Build Solution.
+11. Wait for all builds to finish.
