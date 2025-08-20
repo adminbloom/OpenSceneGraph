@@ -730,7 +730,7 @@ bool CullVisitor::updateCalculatedNearFar(const osg::Matrix& matrix,const osg::B
         return false;
     }
 
-    if (d_near<_computed_znear) _computed_znear = d_near;
+    if (d_near >= 0.0 && d_near<_computed_znear) _computed_znear = d_near;
     if (d_far>_computed_zfar) _computed_zfar = d_far;
 
     return true;
@@ -888,14 +888,14 @@ bool CullVisitor::updateCalculatedNearFar(const osg::Matrix& matrix,const osg::D
             }
             else
             {
-                if (d_near<_computed_znear) _computed_znear = d_near;
+                if (d_near >= 0.0 && d_near<_computed_znear) _computed_znear = d_near;
                 if (d_far>_computed_zfar) _computed_zfar = d_far;
             }
         }
     }
     else
     {
-        if (d_near<_computed_znear) _computed_znear = d_near;
+        if (d_near >= 0.0 && d_near<_computed_znear) _computed_znear = d_near;
         if (d_far>_computed_zfar) _computed_zfar = d_far;
     }
 
